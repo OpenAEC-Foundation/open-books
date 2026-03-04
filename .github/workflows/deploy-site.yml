@@ -9,12 +9,16 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: deploy-site
+  cancel-in-progress: true
+
 jobs:
   deploy:
     uses: OpenAEC-Foundation/github/.github/workflows/deploy-site.yml@main
     with:
       deploy_path: ${{ vars.DEPLOY_PATH }}
-      rsync_excludes: |
-        .idea/
+      checkout_sparse: |
+        index.html
     secrets:
       deploy_ssh_key: ${{ secrets.DEPLOY_SSH_KEY }}
