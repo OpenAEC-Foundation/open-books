@@ -14,5 +14,7 @@ jobs:
     uses: OpenAEC-Foundation/github/.github/workflows/deploy-site.yml@main
     with:
       deploy_path: ${{ vars.DEPLOY_PATH }}
+      rsync_excludes: |
+        .idea/
     secrets:
       deploy_ssh_key: ${{ secrets.DEPLOY_SSH_KEY }}
