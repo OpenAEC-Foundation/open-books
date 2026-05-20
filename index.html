@@ -109,7 +109,7 @@
     const { useState, useEffect, useRef } = React;
 
     // GitHub raw URL base voor afbeeldingen
-    const GITHUB_RAW = ".";
+    const GITHUB_RAW = "https://raw.githubusercontent.com/OpenAEC-Foundation/open-books/main";
 
     // Helper to build page image URL for a given book and page number (1-based)
     const getPageUrl = (book, pageNum) => {
@@ -510,7 +510,7 @@
                 </div>
                 {/* GitHub link naar map */}
                 <a
-                  href={`https://github.com/OpenAEC-Foundation/OpenBooks/tree/main/${encodeURIComponent(book.folder)}`}
+                  href={`https://github.com/OpenAEC-Foundation/open-books/tree/main/${encodeURIComponent(book.folder)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -1093,7 +1093,7 @@
             </div>
 
             <a 
-              href="https://github.com/OpenAEC-Foundation/OpenBooks" 
+              href="https://github.com/OpenAEC-Foundation/open-books"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -1341,7 +1341,7 @@
                 </svg>
                 Contact
               </a>
-              <a href="https://github.com/OpenAEC-Foundation/OpenBooks" target="_blank" rel="noopener noreferrer" style={{
+              <a href="https://github.com/OpenAEC-Foundation/open-books" target="_blank" rel="noopener noreferrer" style={{
                 color: '#A89070',
                 textDecoration: 'none',
                 fontSize: '0.85rem',
