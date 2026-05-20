@@ -20,8 +20,15 @@ jobs:
       deploy_host: ${{ vars.DEPLOY_HOST }}
       deploy_port: ${{ vars.DEPLOY_PORT }}
       deploy_user: ${{ vars.DEPLOY_USER }}
-      deploy_path: /var/www/openbooks.open-aec.com
-      checkout_sparse: |
-        index.html
+      deploy_path: /var/www/open-books.open-aec.com
+      rsync_excludes: |
+        .idea/
+        Python/
+        PR/
+        .gitignore
+        README.md
+        LICENSE.md
+        rename_all_books.py
+        rename_pages.py
     secrets:
       deploy_ssh_key: ${{ secrets.DEPLOY_SSH_KEY }}
