@@ -38,6 +38,7 @@ Of bekijk de afbeeldingen via Github. Of download de gehele collectie via deze l
 * GBV 1950 Gewapend Beton Voorschriften
 * Paneeldeuren, auteur onbekend.
 * F.H. Mijling Moderne houten trappen deel 1
+* [Entstehung, Folgen, Prüfung der statischen Berechnung](Entstehung%20Folgen%20Pruefung%20der%20statischen%20Berechnung) - Duitstalig hoofdstuk over statische berekeningen, 15 scans; auteur en publicatiejaar onbekend.
 
 # Toekomstige collectie
 * Overige boeken van [Prof. J.G. Wattjes](https://nl.wikipedia.org/wiki/J.G._Wattjes).

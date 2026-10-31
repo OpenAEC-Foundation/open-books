@@ -23,5 +23,6 @@ jobs:
       deploy_path: /var/www/open-books.open-aec.com
       checkout_sparse: |
         index.html
+        Entstehung Folgen Pruefung der statischen Berechnung
     secrets:
       deploy_ssh_key: ${{ secrets.DEPLOY_SSH_KEY }}
